@@ -1920,9 +1920,28 @@ body {
 
 /* Status Icons */
 :where(.visual-refresh) .refreshIconFill__001a7{
-    fill: var(--pink-2)
+    fill: var(--pink-6)
 }
 /* Status Text */
 .statusText__19b6d{
     color: var(--pink-4)
+}
+
+/* Footer of new screenshare */
+:where(.visual-refresh) .footer__49fc1{
+    background-color: #a37290;
+}
+/* Header of sections */
+.pillContainer__9e06a{
+    background-color: transparent;
+}
+.pillItemSelected__9e06a{
+    background-color: var(--pink-5);
+}
+/* Remove badge of Nitro new screenshare */
+.infoText__175e2, .root__175e2{
+    display: none;
+}
+.premiumOption__25a09{
+    color: white;
 }
