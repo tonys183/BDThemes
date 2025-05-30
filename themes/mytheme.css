@@ -1843,3 +1843,19 @@ body {
 .statusText__19b6d{
     color: var(--grey-5)
 }
+
+/* Footer of new screenshare */
+:where(.visual-refresh) .footer__49fc1{
+    background-color: var(--grey-3);
+}
+/* Header of sections */
+.pillContainer__9e06a{
+    background-color: transparent;
+}
+.pillItemSelected__9e06a{
+    background-color: #0a0a0a;
+}
+/* Remove badge of Nitro new screenshare */
+.infoText__175e2, .root__175e2{
+    display: none;
+}
