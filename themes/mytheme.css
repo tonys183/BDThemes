@@ -1785,9 +1785,12 @@ body {
 }
 
 /* New buttons in call */
-.buttonSection__1405b.experimentButtonSection__1405b {
-    background: #141414 !important;
+.buttonSection__1405b {
+    background: none !important;
     border: none;
+}
+.colorable_f1ceac.primaryDark_f1ceac.active_f1ceac:not(.disabled_f1ceac), .colorable_f1ceac.primaryDark_f1ceac:hover:not(.disabled_f1ceac){
+    background: var(--grey-1);
 }
 
 /* Screenshare fixes */
