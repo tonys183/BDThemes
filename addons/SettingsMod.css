@@ -129,7 +129,7 @@
 }
 
 #app-mount .layer__960e4 ~ .layer__960e4 .toolsContainer__23e6b .closeButton_c2b141 {
-    color: #3f3f3f;
+    color: var(--accent-2);
     position: fixed !important;
     top: 20px !important;
     right: 20px !important;
