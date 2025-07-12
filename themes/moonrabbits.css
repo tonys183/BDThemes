@@ -510,7 +510,7 @@ body {
         --background-surface-higher: var(--pink-6);
         --background-surface-highest: var(--bg-3);
         --bg-surface-overlay: var(--bg-4);
-        --bg-surface-raised: var(--bg-3);
+        --bg-surface-raised: var(--bg-1);
         --chat-background-default: #00000000;
         --chat-text-muted: var(--text-5);
         --input-background: var(--pink-6);
@@ -600,6 +600,28 @@ body {
         --button-transparent-background-active: var(--active-2);
         --button-transparent-background-hover: var(--active);
         --button-transparent-text: var(--text-3);
+
+        /* New buttons colors */
+        --control-text-primary-default: var(--text-0);
+        --control-background-primary-default: var(--accent-3);
+        --control-border-primary-default: var(--button-border);
+        --control-background-primary-hover: var(--accent-4);
+        --control-border-primary-hover: var(--button-border);
+        --control-text-primary-hover: var(--text-0);
+
+        --control-text-secondary-default: var(--text-3);
+        --control-background-secondary-default: var(--bg-2);
+        --control-border-secondary-default: var(--button-border);
+        --control-background-secondary-hover: var(--bg-1);
+        --control-border-secondary-hover: var(--button-border);
+        --control-text-secondary-hover: var(--text-0);
+
+        --control-text-critical-secondary-default: white;
+        --control-background-critical-secondary-default: var(--red-3);
+        --control-border-critical-secondary-default: var(--button-border);
+        --control-text-critical-secondary-hover: white;
+        --control-background-critical-secondary-hover: var(--red-4);
+        --control-border-critical-secondary-hover: var(--button-border);
 
         --redesign-button-secondary-text: var(--text-3);
 
@@ -798,7 +820,7 @@ body {
             color: var(--text-0);
         }
 
-        .container__87bf1 /* settings checkbutton background */ {
+        .container__87bf1 /* settings uncheckbutton background */ {
             background-color: var(--bg-1) !important;
             transition: background-color 0.2s ease;
         }
@@ -1802,9 +1824,6 @@ body {
     height: 218px !important;
     border-radius: 5px 5px 0 0;
 }
-.focusLock__49fc1 .root__49fc1.small__49fc1 {
-    bottom: -50px !important;
-}
 
 /* New buttons in call */
 .buttonSection__1405b {
@@ -1952,4 +1971,24 @@ body {
 /* Card ListenAlong */
 .listeningAlong_e0cf27{
     background-color: transparent;
+}
+
+/* 3 dots of Actions */
+.actionMenuButton_d84e0f {
+    background-color: var(--bg-1);
+}
+
+/* Info Connections */
+.metadataContainer_c7f964{
+    background-color: var(--bg-1);
+}
+
+/* Bg of Radio select */
+.radioIndicator__001a7{
+    background: var(--bg-1);
+}
+
+/* Border of Registered Games */
+.theme-dark .game_cc46f0{
+    box-shadow: 0 1px 0 0 var(--accent-2);
 }
