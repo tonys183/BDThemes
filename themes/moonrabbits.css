@@ -1935,9 +1935,17 @@ body {
     color: #e2c3d8;
 }
 
-/* Border of Code files */
+/* Bg of Code files */
 .visual-refresh .textContainer__4d95d{
-    border-color: var(--pink-1);
+    border-color: transparent;
+    border-bottom: 1px solid var(--pink-1);
+    background-color: var(--bg-1);
+}
+.visual-refresh .footer__4d95d{
+    border-color: transparent;
+}
+.newMosaicStyle__4d95d .codeView__4d95d{
+    background-color: var(--bg-5);
 }
 
 /* Status Icons */
