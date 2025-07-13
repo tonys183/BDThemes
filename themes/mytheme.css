@@ -1850,10 +1850,13 @@ body {
 /* Bg of Code files */
 .visual-refresh .textContainer__4d95d{
     border-color: var(--grey-2);
-    background-color: var(--grey-3);
+    background-color: var(--bg-6);
 }
 .visual-refresh .footer__4d95d{
     border-color: var(--grey-2);
+}
+.newMosaicStyle__4d95d .codeView__4d95d{
+    background-color: var(--grey-5);
 }
 
 /* Status Text */
