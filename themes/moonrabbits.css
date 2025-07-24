@@ -39,10 +39,9 @@ body {
         border: 1px solid var(--border-subtle);
         backdrop-filter: var(--panel-backdrop-filter);
     }
-
     /* Fix bar in call */
     .sidebarList_c48ade{
-        width: auto;
+        padding-right: 1px;
     }
 
     .base_c48ade /* base grid */ {
