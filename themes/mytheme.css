@@ -34,10 +34,14 @@ body {
     .container_a592e1 /* server discovery */,
     .callContainer_cb9592 /* vc container */,
     .callContainer__722ff /* stage */ {
-        background-color: var(--background-base-lower);
+        background-color: var(--bg-4);
         border-radius: 0px;
         border: 1px solid var(--border-subtle);
         backdrop-filter: var(--panel-backdrop-filter);
+    }
+    /* Fix bar in call */
+    .sidebarList_c48ade{
+        width: auto;
     }
 
     .base_c48ade /* base grid */ {
@@ -505,8 +509,8 @@ body {
         --background-mod-normal: var(--grey-4);
         --background-mod-strong: var(--bg-3);
         --background-base-low: var(--bg-4);
-        --background-base-lower: var(--bg-4);
-        --background-base-lowest: var(--bg-4);
+        --background-base-lower: var(--bg-2);
+        --background-base-lowest: var(--bg-6);
         --background-surface-high: var(--grey-4);
         --background-surface-higher: var(--bg-2);
         --background-surface-highest: var(--bg-3);
