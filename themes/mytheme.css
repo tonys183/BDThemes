@@ -1903,3 +1903,8 @@ body {
 .radioIndicator__001a7{
     background: var(--bg-1);
 }
+
+/* Remove gradient chat */
+.chatGradient__36d07{
+    height: 0 !important;
+}

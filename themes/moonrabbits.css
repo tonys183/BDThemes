@@ -2005,3 +2005,8 @@ body {
 .theme-dark .game_cc46f0{
     box-shadow: 0 1px 0 0 var(--accent-2);
 }
+
+/* Remove gradient chat */
+.chatGradient__36d07{
+    height: 0 !important;
+}
