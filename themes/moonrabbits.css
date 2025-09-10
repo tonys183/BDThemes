@@ -2021,6 +2021,6 @@ body {
 }
 
 /* Remove border search bar */
-.searchBar__5ec2f > .wrapper__3412a{
+.wrapper__3412a{
     border: none !important;
 }
