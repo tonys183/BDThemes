@@ -2010,3 +2010,17 @@ body {
 .chatGradient__36d07{
     height: 0 !important;
 }
+
+/* Space profile pic and name */
+.nameTag__37e49.canCopy__37e49{
+    margin-left: 5px;
+}
+/* Align profile pic */
+.container__37e49 .avatar__37e49{
+    margin-bottom: 8px;
+}
+
+/* Remove border search bar */
+.searchBar__5ec2f > .wrapper__3412a{
+    border: none !important;
+}
