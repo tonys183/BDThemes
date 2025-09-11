@@ -290,6 +290,7 @@ body {
         --space-8: 16px;
     }
     .channelBottomBarArea_f75fb0 /* chat bar inner */ {
+        margin-bottom: 20px;
         --space-8: 8px;
     }
 
@@ -1906,6 +1907,9 @@ body {
 .chatGradient__36d07{
     height: 0 !important;
 }
+.chatTypingGradientNotAtBottom__36d07{
+    height: 0 !important;
+}
 
 /* Space profile pic and name */
 .nameTag__37e49.canCopy__37e49{
@@ -1919,4 +1923,12 @@ body {
 /* Remove border search bar */
 .wrapper__3412a{
     border: none !important;
+}
+
+/* Align chat bar typing */
+.typing_b88801{
+    margin-top: 82px;
+}
+.align-chat-input .inTextChannel_b88801 .text_b88801{
+    margin-left: 5px;
 }
