@@ -2036,3 +2036,8 @@ body {
 .messagesWrapper__36d07{
     margin-bottom: -15px;
 }
+
+/* Box shadow of Delete msg */
+.bodyInner__53cea > .message__89466{
+    box-shadow: var(--accent-1) 0px 2px 0px 0 !important;
+}
