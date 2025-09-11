@@ -290,9 +290,6 @@ body {
         --space-8: 16px;
     }
     .channelBottomBarArea_f75fb0 /* chat bar inner */ {
-        background-color: black;
-        margin-top: -20px;
-        margin-bottom: 20px;
         --space-8: 8px;
     }
 
@@ -389,6 +386,12 @@ body {
     }
     .root__24502 {
         background: none;
+    }
+
+    .base_b88801 {
+        background-color: black;
+        transition: none;
+        box-sizing: border-box;
     }
 
     /* remove unnecessary backgrounds */
@@ -1647,6 +1650,7 @@ body {
 /* Bg of Chatbar */
 .visual-refresh .channelTextArea__74017{
     transition: 0.3s ease;
+    background-color: black;
 }
 .visual-refresh .channelTextArea__74017:focus-within{
     border-color: transparent;
@@ -1927,9 +1931,9 @@ body {
     border: none !important;
 }
 
-/* Align chat bar typing */
-.typing_b88801{
-    margin-top: 82px;
+/* Align chat bar */
+.align-chat-input .inTextChannel_b88801 .typingDots_b88801{
+    margin-left: 0;
 }
 .align-chat-input .inTextChannel_b88801 .text_b88801{
     margin-left: 5px;

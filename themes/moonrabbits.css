@@ -2008,11 +2008,8 @@ body {
 }
 
 /* Remove gradient chat */
-.chatGradient__36d07{
-    height: 0 !important;
-}
-.chatTypingGradientNotAtBottom__36d07{
-    height: 0 !important;
+.chatGradient__36d07, .chatGradientBase__36d07, .chatTypingGradientNotAtBottom__36d07{
+    display: none;
 }
 
 /* Space profile pic and name */
