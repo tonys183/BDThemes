@@ -1665,11 +1665,11 @@ body {
 .visual-refresh .channelTextArea__74017{
     border-radius: 8px 8px 0 0;
     transition: 0.3s ease;
-    background-color: hsla(335, 20%, 58%, 0.342);
+    background-color: hsl(336, 18%, 54%);
 }
 .visual-refresh .channelTextArea__74017:focus-within{
     border-color: transparent;
-    background-color: hsla(335, 20%, 58%, 0.616);
+    background-color: hsl(336, 27%, 61%);
     transition: 0.3s ease;
 }
 .visual-refresh .channelTextArea__74017::after {
@@ -2029,11 +2029,13 @@ body {
     border: none !important;
 }
 
-
 /* Align chat bar typing */
 .typing_b88801{
     margin-top: 88px;
 }
 .align-chat-input .inTextChannel_b88801 .text_b88801{
     margin-left: 5px;
+}
+.messagesWrapper__36d07{
+    margin-bottom: -15px;
 }

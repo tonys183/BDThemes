@@ -290,6 +290,8 @@ body {
         --space-8: 16px;
     }
     .channelBottomBarArea_f75fb0 /* chat bar inner */ {
+        background-color: black;
+        margin-top: -20px;
         margin-bottom: 20px;
         --space-8: 8px;
     }
