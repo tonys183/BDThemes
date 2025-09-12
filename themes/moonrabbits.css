@@ -1862,6 +1862,12 @@ body {
 .avatarSpeaking__07f91{
     box-shadow: inset 0 0 0 2px var(--status-speaking), inset 0 0 0 1px var(--status-speaking);
 }
+/* Color of the circle when speak on profile */
+.avatarSpeaking__44b0c {
+    box-shadow:
+        inset 0 0 0 2px var(--status-speaking),
+        inset 0 0 0 4px var(--status-speaking);
+}
 
 /* Actions Icon */
 .container_c9d15c > .icon_c9d15c > path{

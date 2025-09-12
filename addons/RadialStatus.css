@@ -239,23 +239,21 @@
 	.avatarWrapper__37e49 .mask__44b0c > g {
 		transform: none !important;
 		rect {
-			width: var(--rs-user-area-size, 40px);
-			height: var(--rs-user-area-size, 40px);
-			rx: calc(var(--rs-avatar-shape) * 2) !important;
-			ry: calc(var(--rs-avatar-shape) * 2) !important;
+			width: 31px;
+			height: 31px;
+            x: calc(var(--rs-user-area-size)*2) !important;
+            y: calc(var(--rs-user-area-size)*2) !important;
 		}
 	}
 
 	.avatarSpeaking__44b0c {
 		position: absolute;
-		top: 2px;
-		left: 2px;
-		width: calc(100% - 4px);
-		height: calc(100% - 4px);
+		width: calc(100%);
+		height: calc(100%);
 		border-radius: var(--rs-avatar-shape);
 		box-shadow:
 			inset 0 0 0 2px var(--rs-self-speaking-colour, #57d39b),
-			inset 0 0 0 3px var(--background-secondary);
+			inset 0 0 0 4px #1d7721;
 	}
 
 	.message__5126c .wrapper__44b0c {
