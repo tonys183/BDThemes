@@ -821,18 +821,18 @@ body {
             color: var(--text-0);
         }
 
-        .container__87bf1 /* settings uncheckbutton background */ {
+        .container__3f21e /* settings uncheckbutton background */ {
             background-color: var(--bg-1) !important;
             transition: background-color 0.2s ease;
         }
-        .container__87bf1.checked__87bf1 /* settings checkbutton background */ {
+        .container__3f21e.checked__3f21e /* settings checkbutton background */ {
             background-color: var(--accent-2) !important;
         }
-        .container__87bf1 .slider__87bf1 > svg > path /* settings checkbutton check */ {
+        .container__3f21e .slider__3f21e > svg > path /* settings checkbutton check */ {
             fill: var(--bg-1) !important;
             transition: fill 0.2s ease;
         }
-        .container__87bf1.checked__87bf1 .slider__87bf1 > svg > path /* settings checkbutton check */ {
+        .container__3f21e.checked__3f21e .slider__3f21e > svg > path /* settings checkbutton check */ {
             fill: var(--accent-2) !important;
         }
         .container__87bf1 rect[fill='white'] /* settings checkbutton slider */ {
@@ -1934,4 +1934,9 @@ body {
 }
 .align-chat-input .inTextChannel_b88801 .text_b88801{
     margin-left: 5px;
+}
+
+/* Bg of Activy (My Server)  */
+.myServersContainer_eda416 > .wrapper__7db08 > .headerContainer__7db08{
+    background-color: transparent !important;
 }
