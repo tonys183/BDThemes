@@ -66,7 +66,6 @@ body {
         backdrop-filter: var(--panel-backdrop-filter);
     }
 
-
     /* Fix bar in call */
     .sidebarList_c48ade{
         padding-right: 1px;
