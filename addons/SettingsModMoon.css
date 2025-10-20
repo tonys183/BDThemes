@@ -1,3 +1,21 @@
+/* New version */
+.theme-dark .images-dark .modalContentInner_e44912 .sidebar__409aa {
+    background: var(--themedarksettingsmodalbackground) !important;
+}
+.theme-dark .images-dark .modalContentInner_e44912 .content_e9e3ed {
+    background: var(--themedarksettingsmodalbackground) !important;
+}
+.theme-dark .images-dark .modalContentInner_e44912 .contentHeader_e9e3ed {
+    background: var(--themedarksettingsmodalbackground) !important;
+}
+
+.fixedContent__409aa:after{
+    background: linear-gradient(to bottom, #755567, transparent);
+    border-radius: 5px;
+    left: 5px;
+}
+
+/* Old Version (with betterdiscord) */
 #app-mount .baseLayer__960e4 {
     opacity: 1 !important;
     transform: unset !important;
