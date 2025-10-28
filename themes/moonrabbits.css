@@ -2037,8 +2037,11 @@ body {
 }
 
 /* Remove border search bar */
-.wrapper__3412a{
+.wrapper__72c38{
     border: none !important;
+}
+.wrapper__72c38:not([data-read-only=true]):has(input:focus,textarea:focus) {
+    --custom-input-focus-border-color: transparent !important;
 }
 
 /* Align chat bar typing */

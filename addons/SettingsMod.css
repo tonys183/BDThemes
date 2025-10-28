@@ -9,7 +9,7 @@
     background: var(--themedarksettingsmodalbackground) !important;
 }
 
-/* Old Version (with bd) */
+/* Old Version (with betterdiscord) */
 #app-mount .baseLayer__960e4 {
     opacity: 1 !important;
     transform: unset !important;
