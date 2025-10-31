@@ -11,17 +11,16 @@ body {
 .visual-refresh {
     /* panel separation */
     .guilds_c48ade /* server list */, 
-    .sidebarList_c48ade /* channel list (includes dm list) */,
+    .sidebarList__5e434  /* channel list (includes dm list) */,
     .panels_c48ade /* user panel */,
-    .chatContent_f75fb0 /* chat */,
     .chat_f75fb0 > .subtitleContainer_f75fb0 /* chat titlebar */,
-    .page_c48ade, /* all of chat */
     .content_f75fb0 > .membersWrap_c8ffbb /* forum post member list */,
     .container__133bf > .container__9293f /* friends titlebar */,
     .container_f391e3 > .container__9293f /* message requests titlebar */,
     .homeWrapper__0920e > .container__9293f /* nitro page titlebar */,
     .container__01ae2 > .container__9293f /* vc chat titlebar */,
     .container_fb64c9 > .container__9293f /* new thread panel */,
+    .wrapper_ef3116 /* server list inner scroller */,
     .peopleColumn__133bf /* online friends */,
     .nowPlayingColumn__133bf /* active now */,
     .scroller_c880e8 /* nitro page */,
@@ -40,6 +39,21 @@ body {
         backdrop-filter: var(--panel-backdrop-filter);
     }
 
+    /* Quests & Shop bg */
+    .scroller__23746.thin_d125d2.scrollerBase_d125d2 {
+        background-color: var(--bg-4);
+    }
+    /* Fix blur in chat */
+    .page__5e434 /* main page container */{
+        backdrop-filter: var(--panel-backdrop-filter);
+    }
+    .chatContent_f75fb0 /* chat content */ {
+        background-color: var(--bg-4);
+    }
+    /* Remove bg of friends tab */
+    .privateChannels_e6b769 /* dm list outer */ {
+        background: none;
+    }
     .guilds_c48ade /* server list */ {
         backdrop-filter: none !important;
     }
@@ -71,7 +85,7 @@ body {
         max-width: calc(var(--custom-guild-sidebar-width) + var(--gap) + 4px);
     }
 
-    .sidebar_c48ade /* server list + channel list + user panel group */ {
+    .sidebar__5e434 /* server list + channel list + user panel group */ {
         margin: 0 0 var(--gap) var(--gap);
     }
 
@@ -107,9 +121,10 @@ body {
         border-radius: var(--radius-lg) var(--radius-lg) 0 0;
     }
 
-    .sidebar_c48ade:after /* server list + channel list bottom shadow */ {
+    .sidebar__5e434:after /* server list + channel list bottom shadow */ {
         display: none;
     }
+
 
     .chat_f75fb0 /* chat group outer */ {
         border: none !important;
@@ -770,6 +785,11 @@ body {
 
         .folder__48112[aria-expanded="false"] > .folderIconWrapper__48112 /* collapsed folders */ {
             --background-primary: var(--bg-3);
+        }
+
+        .panels__5e434 /* primary activity panel */ {
+            inset-inline-start: 40px;
+            width: calc(100% - var(--custom-panels-spacing)*6);
         }
 
         .panel__5dec7 /* game activity panel */,
@@ -2025,6 +2045,10 @@ body {
 /* Remove gradient chat */
 .chatGradient__36d07, .chatGradientBase__36d07, .chatTypingGradientNotAtBottom__36d07{
     display: none;
+}
+.wrapper_ef3116{
+    margin-bottom: 0;
+    mask: none;
 }
 
 /* Space profile pic and name */
