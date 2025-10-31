@@ -39,7 +39,10 @@ body {
         border: 1px solid var(--border-subtle);
         backdrop-filter: var(--panel-backdrop-filter);
     }
-
+    /* Quests & Shop bg */
+    .scroller__23746.thin_d125d2.scrollerBase_d125d2 {
+        background-color: none;
+    }
     /* Fix blur in chat */
     .page__5e434 /* main page container */{
         backdrop-filter: var(--panel-backdrop-filter);
