@@ -199,3 +199,8 @@
 .contentRegion__23e6b {
     zoom: 0.9 !important;
 }
+
+/* Bar bottom search */
+.fixedContent__409aa:after{
+    background: none;
+}
