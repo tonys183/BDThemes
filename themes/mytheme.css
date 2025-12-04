@@ -1895,6 +1895,10 @@ body {
 .statusText__19b6d{
     color: var(--text-3);
 }
+/* Sharing status */
+.subtext__0a06e{
+    color: var(--text-3);
+}
 
 /* Footer of new screenshare */
 :where(.visual-refresh) .footer__49fc1{
