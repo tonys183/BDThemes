@@ -1,4 +1,3 @@
-
 :root {
     container-name: root;
     --custom-guild-list-padding: 12px;
@@ -1888,9 +1887,9 @@ body {
     background-color: var(--grey-5);
 }
 
-/* Status Text */
-.statusText__19b6d{
-    color: var(--grey-5)
+/* Status friends */
+.userInfo__0a06e > .text__0a06e > .subtext__0a06e > .text__19b6d{
+    color: var(--text-3);
 }
 
 /* Footer of new screenshare */
@@ -1966,4 +1965,9 @@ body {
 /* Bg of Activy (My Server)  */
 .myServersContainer__6de8b > .wrapper__7db08 > .headerContainer__7db08{
     background-color: transparent !important;
+}
+
+/* Direct messages text color */
+.interactive__972a0{
+    color: var(--text-3);
 }
