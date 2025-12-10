@@ -9,7 +9,7 @@ body {
 }
 
 .visual-refresh {
-    /* panel separation */
+    /* panels separation */
     .guilds_c48ade /* server list */, 
     .sidebarList__5e434  /* channel list (includes dm list) */,
     .panels_c48ade /* user panel */,
