@@ -507,12 +507,13 @@ body {
         --activity-card-background: red;
         --alert-bg: red;
         --autocomplete-bg: var(--bg-3);
+        --border: transparent;
 
         --background-accent: var(--bg-2);
         --background-floating: var(--pink-2);
         --background-nested-floating: var(--bg-4);
-        --background-mentioned: var(--mention);
-        --background-mentioned-hover: var(--mention-hover);
+        --message-mentioned-background-default: var(--mention);
+        --message-mentioned-background-hover: var(--mention-hover);
         --background-message-automod: red;
         --background-message-automod-hover: red;
         --background-message-highlight: var(--reply);
@@ -555,10 +556,12 @@ body {
         --bg-brand: var(--accent-2);
 
         --border-faint: var(--border-light);
-        --border-subtle: var(--border);
         --border-normal: var(--border);
         --border-strong: var(--border);
-        --input-border: transparent;
+        --border-muted: var(--border);
+        --input-border: var(--border);
+        --input-border-default: var(--border);
+        --border-subtle: var(--border);
 
         --button-danger-background: var(--red-3);
         --button-danger-background-active: var(--red-5);
@@ -629,6 +632,8 @@ body {
         --button-transparent-text: var(--text-3);
 
         /* New buttons colors */
+        --control-primary-background-default: var(--accent-3);
+        --control-primary-background-hover: var(--accent-2);
         --control-text-primary-default: var(--text-0);
         --control-background-primary-default: var(--accent-3);
         --control-border-primary-default: var(--button-border);
@@ -650,6 +655,9 @@ body {
         --control-background-critical-secondary-hover: var(--red-4);
         --control-border-critical-secondary-hover: var(--button-border);
 
+        --control-primary-border-default: var(--border);
+        --control-primary-border-hover: var(--border);
+
         --redesign-button-secondary-text: var(--text-3);
 
         --polls-voted-fill: color-mix(in hsl, var(--accent-2), transparent 90%);
@@ -666,7 +674,8 @@ body {
         --header-secondary: var(--text-4);
         --header-muted: var(--text-4);
 
-        --icon-muted: var(--text-5);
+        --icon-muted: var(--text-1);
+        --icon-subtle: var(--text-2);
         --icon-primary: var(--text-3);
         --icon-secondary: var(--text-4);
         --icon-tertiary: var(--text-1);
@@ -957,14 +966,7 @@ body {
         .container__37e49 /* user panel buttons */,
         .numberBadge__2b1f5  /* unread number badge */,
         .toolbar__9293f /* toolbar button strikethroughs */ {
-            --status-danger: var(--accent-new);
-        }
-
-        .container__37e49 .button__67645.redGlow__67645 /* user panel button backgrounds*/ {
-            background-color: color-mix(in hsl, var(--accent-new), transparent 90%);
-        }
-        .container__37e49 .button__67645.enabled__67645.redGlow__67645:hover /* user panel button backgrounds hover */ {
-            background-color: color-mix(in hsl, var(--accent-new), transparent 80%);
+            --status-danger: var(--pink-1);
         }
 
         .divider__5126c /* unread divider */ {
@@ -1917,13 +1919,18 @@ body {
 }
 
 /* Buttons call active */
-.theme-dark .experimentButton_e131a9 .buttonColor_e131a9.buttonActive_e131a9,.theme-dark .experimentButton_e131a9.buttonColor_e131a9.buttonActive_e131a9,.theme-dark.custom-theme-background .experimentButton_e131a9 .buttonColor_e131a9.buttonActive_e131a9,.theme-dark.custom-theme-background .experimentButton_e131a9.buttonColor_e131a9.buttonActive_e131a9 {
-    background-color: var(--pink-6);
+.actionButtons_e131a9 .button_e131a9.buttonColor_e131a9.buttonActive_e131a9{
+    background-color: var(--pink-2);
     border: 1px solid var(--pink-1);
     color: var(--pink-1);
 }
-.visual-refresh .button_e131a9{
+.actionButtons_e131a9 .button_e131a9{
     border-radius: 20px;
+    background-color: var(--pink-6);
+}
+.actionButtons_e131a9 .button_e131a9:hover{
+    border-radius: 20px;
+    background-color: var(--pink-5);
 }
 
 /* Bg of Activity */

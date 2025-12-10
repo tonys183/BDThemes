@@ -505,12 +505,13 @@ body {
         --activity-card-background: red;
         --alert-bg: red;
         --autocomplete-bg: var(--bg-3);
+        --border: transparent;
 
         --background-accent: var(--bg-2);
         --background-floating: var(--grey-4);
         --background-nested-floating: var(--bg-4);
-        --background-mentioned: var(--mention);
-        --background-mentioned-hover: var(--mention-hover);
+        --message-mentioned-background-default: var(--mention);
+        --message-mentioned-background-hover: var(--mention-hover);
         --background-message-automod: red;
         --background-message-automod-hover: red;
         --background-message-highlight: var(--reply);
@@ -533,7 +534,7 @@ body {
         --background-base-lowest: var(--bg-6);
         --background-surface-high: var(--grey-4);
         --background-surface-higher: var(--bg-2);
-        --background-surface-highest: var(--bg-3);
+        --background-surface-highest: var(--bg-2);
         --bg-surface-overlay: var(--bg-4);
         --bg-surface-raised: var(--bg-2);
         --chat-background-default: #00000000;
@@ -553,10 +554,12 @@ body {
         --bg-brand: var(--accent-2);
 
         --border-faint: var(--border-light);
-        --border-subtle: var(--border);
         --border-normal: var(--border);
         --border-strong: var(--border);
+        --border-muted: var(--border);
         --input-border: var(--border);
+        --input-border-default: var(--border);
+        --border-subtle: var(--border);
 
         --button-danger-background: var(--red-3);
         --button-danger-background-active: var(--red-5);
@@ -627,6 +630,8 @@ body {
         --button-transparent-text: var(--text-3);
 
         /* New buttons colors */
+        --control-primary-background-default: var(--accent-3);
+        --control-primary-background-hover: var(--accent-2);
         --control-text-primary-default: var(--text-0);
         --control-background-primary-default: var(--accent-3);
         --control-border-primary-default: var(--button-border);
@@ -640,6 +645,9 @@ body {
         --control-background-secondary-hover: var(--bg-1);
         --control-border-secondary-hover: var(--button-border);
         --control-text-secondary-hover: var(--text-0);
+
+        --control-primary-border-default: var(--border);
+        --control-primary-border-hover: var(--border);
 
         --redesign-button-secondary-text: var(--text-3);
 
@@ -657,7 +665,7 @@ body {
         --header-secondary: var(--text-4);
         --header-muted: var(--text-4);
 
-        --icon-muted: var(--text-5);
+        --icon-muted: var(--text-3);
         --icon-primary: var(--text-3);
         --icon-secondary: var(--text-4);
         --icon-tertiary: var(--text-4);
@@ -1584,8 +1592,8 @@ body {
     --accent-4: var(--grey-3); /* accent buttons when hovered */
     --accent-5: var(--grey-4); /* accent buttons when clicked */
     --accent-new: #e95555; /* stuff that's normally red like mute/deafen buttons */
-    --mention: linear-gradient(-30deg,rgba(0, 0, 0, 0.5), rgba(17, 17, 17, 0.575)); /* background of messages that mention you */
-    --mention-hover: linear-gradient(-30deg,rgba(0, 0, 0, 0.5), rgba(27, 27, 27, 0.575)); /* background of messages that mention you when hovered */
+    --mention: linear-gradient(-30deg,rgba(0, 0, 0, 0.322), rgba(19, 19, 19, 0.473)); /* background of messages that mention you */
+    --mention-hover: linear-gradient(-30deg,rgba(0, 0, 0, 0.322), rgba(19, 19, 19, 0.966)); /* background of messages that mention you when hovered */
     --reply: linear-gradient(to right, color-mix(in hsl, var(--text-5), transparent 90%) 40%, transparent); /* background of messages that reply to you */
     --reply-hover: linear-gradient(to right, color-mix(in hsl, var(--text-3), transparent 95%) 40%, transparent); /* background of messages that reply to you when hovered */
 
@@ -1977,5 +1985,10 @@ body {
 
 /* Direct messages text color */
 .interactive__972a0{
+    color: var(--text-3);
+}
+
+/* Color icons settings */
+.item_caf372{
     color: var(--text-3);
 }
