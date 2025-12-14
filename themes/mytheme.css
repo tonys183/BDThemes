@@ -1,3 +1,17 @@
+/**
+ * @name test
+ * @description to make tests and fix bugs
+ * @author tony
+ * @version 0
+*/
+
+/* --- Fonts --- */
+@import url('https://fonts.googleapis.com/css2?family=Figtree:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+/* --- Addons --- */
+/* Settings Mod */
+@import url("https://tonys183.github.io/BDThemes/addons/SettingsMod.css");
+
 :root {
     container-name: root;
     --custom-guild-list-padding: 12px;
@@ -954,10 +968,10 @@ body {
         }
 
         .container__37e49 .button__67645.redGlow__67645 /* user panel button backgrounds*/ {
-            background-color: color-mix(in hsl, var(--accent-new), transparent 90%);
+            background-color: color-mix(in hsl, var(--accent-new), transparent 90%) !important;
         }
         .container__37e49 .button__67645.enabled__67645.redGlow__67645:hover /* user panel button backgrounds hover */ {
-            background-color: color-mix(in hsl, var(--accent-new), transparent 80%);
+            background-color: color-mix(in hsl, var(--accent-new), transparent 80%) !important;
         }
 
         .divider__5126c /* unread divider */ {
@@ -1991,4 +2005,12 @@ body {
 /* Color icons settings */
 .item_caf372{
     color: var(--text-3);
+}
+
+/* Remove nameplate left corner */
+.container__4bbc6.fadeIn__4bbc6.fitInAccount__4bbc6{
+    background: transparent !important;
+}
+.avatarWrapper__37e49.plated__37e49, .buttons__37e49{
+    --custom-nameplate: var(--control-secondary-background-hover) !important;
 }
