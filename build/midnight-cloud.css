@@ -2036,13 +2036,13 @@ body {
         transform: scale(0.9);
     }
     .c38106a3f0c3ca76-winButtonClose::after {
-        background-color: var(--dnd) !important;
+        background-color: var(--close-color) !important;
     }
     .c38106a3f0c3ca76-winButtonMinMax:nth-child(1)::after {
-        background-color: var(--idle) !important;
+        background-color: var(--min-color) !important;
     }
     .c38106a3f0c3ca76-winButtonMinMax:nth-child(2)::after {
-        background-color: var(--online) !important;
+        background-color: var(--max-color) !important;
     }
 }
 

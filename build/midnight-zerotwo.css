@@ -2004,9 +2004,20 @@ body {
 }
 
 @container body style(--custom-window-controls: on) {
+    .c38106a3f0c3ca76-trailing{ /* parent div*/
+        position: absolute !important;
+        top: 0 !important;
+        left: 0 !important;
+        right: auto !important;
+        padding: 0 !important;
+        margin: 0 !important;
+        z-index: 9999 !important;
+    }
     .c38106a3f0c3ca76-winButtons {
+        margin-left: 8px !important;
         gap: 0;
-        padding-right: calc(var(--gap) - (var(--window-control-size) / 2) + 1px);
+        padding-right: 0;
+        order: -1 !important;
     }
     .c38106a3f0c3ca76-winButtons::before {
         margin-right: calc(var(--custom-app-top-bar-height) / 4);
@@ -2033,13 +2044,13 @@ body {
         transform: scale(0.9);
     }
     .c38106a3f0c3ca76-winButtonClose::after {
-        background-color: var(--dnd) !important;
+        background-color: var(--close-color) !important;
     }
     .c38106a3f0c3ca76-winButtonMinMax:nth-child(1)::after {
-        background-color: var(--idle) !important;
+        background-color: var(--min-color) !important;
     }
     .c38106a3f0c3ca76-winButtonMinMax:nth-child(2)::after {
-        background-color: var(--online) !important;
+        background-color: var(--max-color) !important;
     }
 }
 

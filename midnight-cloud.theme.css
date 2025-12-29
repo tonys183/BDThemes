@@ -116,6 +116,11 @@ body {
     --streaming: #9147ff; /* change to #9147ff for default */
     --offline: var(--text-4); /* change to #82838b for default offline color */
 
+    /* windows buttons colors */
+    --close-color: var(--online); /* first */
+    --max-color: var(--idle); /* second */
+    --min-color: var(--dnd); /* third */
+
     /* border colors */
     --border-light: transparent; /* general light border color */
     --border: transparent; /* general normal border color */
