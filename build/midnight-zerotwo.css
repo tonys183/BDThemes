@@ -2106,3 +2106,8 @@ body {
     background-color: #684748;
     backdrop-filter: var(--panel-backdrop-filter);
 }
+
+/* background of activity panels*/
+.refresh-active-now ._00943886e1cf89d1-wrapper{
+    background-color: var(--pink-6);
+}

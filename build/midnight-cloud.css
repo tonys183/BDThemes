@@ -2095,3 +2095,8 @@ body {
 ._908e20001ad67812-content{
     background-color: var(--grey-2);
 }
+
+/* background of activity panels*/
+.refresh-active-now ._00943886e1cf89d1-header{
+    background-color: transparent !important;
+}
