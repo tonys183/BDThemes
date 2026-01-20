@@ -264,7 +264,7 @@ body {
 
 ._6e2b9359c6f84cfd-notice /* notice banner */ {
     margin: 0 var(--gap) var(--gap) 0;
-    border-radius: var(--radius-md);
+    border-radius: 0;
     box-sizing: border-box;
     height: 40px;
 }
@@ -362,7 +362,13 @@ body {
     border-radius: var(--radius-md);
 }
 ._740174f3d6a2c8fe-themedBackground /* chat bar inner */ {
+    transition: background-color 0.15s ease-out;
     background: none;
+}
+._740174f3d6a2c8fe-themedBackground:focus-within /* chat bar inner focus */ {
+    transition: background-color 0.15s ease-out;
+    background: rgba(173, 138, 153, 0.185) !important;
+
 }
 .ec4baf0360ff3578-slateTextArea /* actual typing area */ {
     margin-left: 2px;
@@ -2018,6 +2024,7 @@ body {
         gap: 0;
         padding-right: 0;
         order: -1 !important;
+        flex-direction: row-reverse !important;
     }
     .c38106a3f0c3ca76-winButtons::before {
         margin-right: calc(var(--custom-app-top-bar-height) / 4);
@@ -2110,4 +2117,20 @@ body {
 /* background of activity panels*/
 .refresh-active-now ._00943886e1cf89d1-wrapper{
     background-color: var(--pink-6);
+}
+
+/* remove gradient when typing */
+._36d072eab2b2e737-chatTypingGradientAtBottom._36d072eab2b2e737-chatGradientBase, 
+._36d072eab2b2e737-messagesWrapper.group-spacing-16::before {
+    display: none;
+}
+/* background of typing area */
+.b8880176888cc928-base { 
+    border-radius: var(--radius-lg) var(--radius-lg) 0 0;
+    background-color: transparent !important;
+}
+.b8880176888cc928-base, 
+.b8880176888cc928-text > strong, 
+.b8880176888cc928-ellipsis._5ad890d06f24286d-dots._5ad890d06f24286d-themed{
+    color: var(--pink-4) !important;
 }

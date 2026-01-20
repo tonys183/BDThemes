@@ -117,9 +117,9 @@ body {
     --offline: var(--text-4); /* change to #82838b for default offline color */
 
     /* windows buttons colors */
-    --close-color: #f1313a; /* first */
+    --close-color: #DA5169; /* first */
     --max-color: #FFDF5B; /* second */
-    --min-color: #DA5169; /* third */
+    --min-color: #f1313a; /* third */
 
     /* border colors */
     --border-light: transparent; /* general light border color */
