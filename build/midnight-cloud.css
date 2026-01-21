@@ -776,7 +776,7 @@ body {
         /* --background-tile-gradient-pink-end: yellow;
         --background-tile-gradient-pink-start: lime; */
         --badge-background-default: var(--accent-2);
-        --badge-expressive-background-default: magenta;
+        --badge-expressive-background-default: var(--accent-4);
         --badge-expressive-text-default: red;
         --badge-text-default: var(--text-0);
         --bg-surface-overlay-tmp: var(--bg-3);
