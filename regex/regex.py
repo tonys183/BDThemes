@@ -5,15 +5,16 @@ pattern = re.compile(
 )
 
 def replace_class(m):
-    sep = "__" if m.group("underscore") else "_"
-    return f".{m.group('name')}{sep}{m.group('hash')[:6]}"
+    hash_part = m.group("hash")
+    name_part = m.group("name")
+    return f".{name_part}__{hash_part[:5]}" if m.group("underscore") else f".{name_part}_{hash_part[:6]}"
 
-with open("build/midnight-cloud.css", "r", encoding="utf-8") as f:
+with open("build/midnight-zerotwo.css", "r", encoding="utf-8") as f:
     css = f.read()
 
 css = pattern.sub(replace_class, css)
 
-with open("output.css", "w", encoding="utf-8") as f:
+with open("regex/output.css", "w", encoding="utf-8") as f:
     f.write(css)
 
 print("Done")
