@@ -2134,3 +2134,8 @@ body {
 .ellipsis_b88801.dots__5ad89.themed__5ad89{
     color: var(--pink-4) !important;
 }
+
+/* remove back and forward buttons */
+.backForwardButtons__63abb{
+    display: none;
+}

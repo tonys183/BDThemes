@@ -2100,3 +2100,8 @@ body {
 .refresh-active-now .header__00943{
     background-color: transparent !important;
 }
+
+/* remove back and forward buttons */
+.backForwardButtons__63abb{
+    display: none;
+}
