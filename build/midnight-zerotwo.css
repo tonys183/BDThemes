@@ -2139,3 +2139,8 @@ body {
 .backForwardButtons__63abb{
     display: none;
 }
+
+/* background of account details */
+.accountProfileCard__1fed1 > .background__1fed1 > .fieldList__1fed1{
+    background-color: transparent !important;
+}
