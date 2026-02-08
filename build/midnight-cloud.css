@@ -451,9 +451,10 @@ body {
 .container__37e49 {
     margin-inline-start: 0;
     -webkit-margin-start: 0;
+    gap: 4px !important
 }
 .container__37e49 .container__4bbc6 /* nameplate */ {
-    border-radius: var(--radius-lg);
+    border-radius: var(--radius-sm);
     width: 100%;
     height: 100%;
     top: 0;
@@ -2083,6 +2084,12 @@ body {
 /* remove nameplate left corner */
 .fitInAccount__4bbc6{
     background: transparent !important;
+}
+.accountPopoutButtonWrapper__37e49{
+    min-width: 80px !important;
+}
+.buttons__37e49{
+    gap: 4px !important;
 }
 .avatarWrapper__37e49.plated__37e49, .buttons__37e49, .accountPopoutButtonWrapper__37e49.plated__37e49{
     --custom-nameplate: var(--control-secondary-background-hover) !important;
