@@ -1,7 +1,7 @@
 .container_791eb8.withTimeline_791eb8 .timeline_791eb8 .grabber_791eb8 {
     width: 25px;
     height: 25px;
-    background-color: transpagrerent;
+    background-color: transparent !important;
     background-image: url("https://static.wikia.nocookie.net/minecraft_gamepedia/images/0/0c/Glow_Squid_BE1.gif");
     background-size: cover;
     transform: rotate(90deg);
@@ -73,7 +73,7 @@
 .container_791eb8.withTimeline_791eb8:not(.maximized_791eb8) .maximizer_791eb8 {
   width: 150%;
   height: 10px;
-  left: -38px;
+  left: -55px;
   background-color: rgba(0, 0, 0, 0.2);
   border-radius: 0;
   padding: 0;

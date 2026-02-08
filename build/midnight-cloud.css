@@ -2084,7 +2084,7 @@ body {
 .fitInAccount__4bbc6{
     background: transparent !important;
 }
-.avatarWrapper__37e49.plated__37e49, .buttons__37e49{
+.avatarWrapper__37e49.plated__37e49, .buttons__37e49, .accountPopoutButtonWrapper__37e49.plated__37e49{
     --custom-nameplate: var(--control-secondary-background-hover) !important;
 }
 .container__37e49 .button__67645.redGlow__67645{
