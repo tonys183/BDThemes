@@ -1171,7 +1171,7 @@ body {
         --switch-thumb-icon-active: blue;
         --switch-thumb-icon-default: magenta;
         --text-brand: var(--accent-1);
-        --text-code: red;
+        --text-code: rgb(255, 255, 255);
         --text-code-addition: yellow;
         --text-code-builtin: lime;
         --text-code-bullet: blue;
