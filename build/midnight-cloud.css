@@ -2037,13 +2037,28 @@ body {
         transform: scale(0.9);
     }
     .winButtonClose_c38106::after {
-        background-color: var(--close-color) !important;
+        transition: background-color 0.15s ease-out;
+        background-color: #313131 !important;
     }
     .winButtonMinMax_c38106:nth-child(1)::after {
-        background-color: var(--min-color) !important;
+        transition: background-color 0.15s ease-out;
+        background-color: #313131 !important;
     }
     .winButtonMinMax_c38106:nth-child(2)::after {
-        background-color: var(--max-color) !important;
+        transition: background-color 0.15s ease-out;
+        background-color: #313131 !important;
+    }
+    .winButtonClose_c38106:hover::after {
+        transition: background-color 0.30s ease-out;
+        background-color: var(--close-color-hover) !important;
+    }
+    .winButtonMinMax_c38106:nth-child(1):hover::after {
+        transition: background-color 0.30s ease-out;
+        background-color: var(--min-color-hover) !important;
+    }
+    .winButtonMinMax_c38106:nth-child(2):hover::after {
+        transition: background-color 0.30s ease-out;
+        background-color: var(--max-color-hover) !important;
     }
 }
 
