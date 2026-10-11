@@ -1,10 +1,9 @@
 # BDThemes — Tema para BetterDiscord
 
-<p align="center">🎨</p>
-
 <p align="center">
   <img alt="CSS" src="https://img.shields.io/badge/CSS-663399?style=flat-square&logo=css&logoColor=white">
   <img alt="BetterDiscord" src="https://img.shields.io/badge/BetterDiscord-3E82E5?style=flat-square&logo=betterdiscord&logoColor=white">
+  <a href="LICENSE"><img alt="Licencia GPL-3.0" src="https://img.shields.io/github/license/tonys183/BDThemes?style=flat-square&label=Licencia&logo=opensourceinitiative&logoColor=white"></a>
 </p>
 
 <p align="center">
